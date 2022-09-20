@@ -6,3 +6,10 @@ work on Svelte Kit full time.
 Slowly growing set of libraries and a growing ecosystem.
 
 Release of SvelteKit 1.0 should solidify things
+
+Multiple frameworks:
+- Crown.js (eCommerce)
+- Elder.js (Static Site Generator)
+- Skeleton (UI Library)
+- Smelte (UI Library)
+- ...
