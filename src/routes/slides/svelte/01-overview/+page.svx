@@ -1,0 +1,7 @@
+# Svelte
+
+- Compiler, not a Framework
+- Not all that new, 0.0.1 was released 6 years ago
+- 370.000 Weekly downloads (Compare React: 17.000.000)
+
+So what makes it cool?

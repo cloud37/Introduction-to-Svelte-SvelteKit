@@ -1,0 +1,6 @@
+<script>
+    import Animation from "$components/Animation.svelte";
+</script>
+# Animations, too!
+
+<Animation/>

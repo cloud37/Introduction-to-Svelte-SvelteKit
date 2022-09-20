@@ -1,0 +1,5 @@
+# Excellent develobment experience
+
+- Incredible fast local Hot Module Reload
+- Expressive errors
+- Integrated a11y warnings

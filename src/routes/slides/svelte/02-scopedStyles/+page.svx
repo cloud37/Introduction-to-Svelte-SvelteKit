@@ -1,0 +1,18 @@
+# Automatically scoped styles
+
+```svelte
+
+<p>Styles will only apply to all paragaphs in this component</p>
+
+<style>
+    p {
+        color: purple;
+        font-family: 'Comic Sans MS', cursive;
+        font-size: 2em;
+    }
+</style>
+```
+
+compared with React:
+- CSS Modules
+- CS in JS Framework(s)

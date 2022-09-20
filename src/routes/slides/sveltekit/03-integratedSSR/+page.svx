@@ -1,0 +1,6 @@
+# Integrated SSR
+
+## Why SSR?
+- SEO
+- Performance
+- Reliability

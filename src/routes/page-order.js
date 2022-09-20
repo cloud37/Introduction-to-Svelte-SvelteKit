@@ -1,0 +1,21 @@
+export const pageOrder = [
+    '/',
+    '/slides/svelte/01-overview',
+    '/slides/svelte/02-scopedStyles',
+    '/slides/svelte/03-reactivity',
+    '/slides/svelte/04-reactivity',
+    '/slides/svelte/05-reactivity',
+    '/slides/svelte/06-transitions',
+    '/slides/svelte/07-animations',
+    '/slides/svelte/08-statehandling',
+    '/slides/svelte/09-dx',
+    '/slides/sveltekit/01-overview',
+    '/slides/sveltekit/02-routing',
+    '/slides/sveltekit/03-integratedSSR',
+    '/slides/sveltekit/04-serverless',
+    '/slides/sveltekit/05-speed',
+    '/slides/sveltekit/06-demo',
+    '/slides/prose/future',
+    '/slides/prose/credits',
+    '/slides/prose/fin'
+]

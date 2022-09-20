@@ -1,0 +1,15 @@
+<script>
+    let name = '';
+    let count = 0;
+
+    const handleClick = () => {
+        count += 1;
+    }
+    $: console.log(`Name: ${name}`)
+    $: console.log(`Count: ${count}`)
+</script>
+
+<input bind:value={name}/>
+<button on:click={handleClick}>
+    Clicked {count} {count === 1 ? 'time' : 'times'}
+</button>

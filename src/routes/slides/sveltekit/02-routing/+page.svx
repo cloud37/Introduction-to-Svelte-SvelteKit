@@ -1,0 +1,5 @@
+# File-Based Routing
+
+Like Next.js with some enhancements:
+
+![editor](./routing.png)

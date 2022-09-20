@@ -1,0 +1,18 @@
+# Serverless/Edge first
+
+- Static files to CDN
+- Dynamic functions as serverless functions
+- API routes as endpoints for serverless functions
+
+Official Adapters for deployment to:
+- Cloudflare
+- Netlify
+- Vercel
+- Node
+- ...
+
+Inoffical Adapters for deployment to:
+- ~~everything~~
+- AWS
+- Azure
+- Firebase

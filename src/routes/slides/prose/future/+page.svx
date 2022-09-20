@@ -1,0 +1,8 @@
+# Future of Svelte/SvelteKit
+
+Vercel (the company behind Next.js) hired 2 developers to
+work on Svelte Kit full time.
+
+Slowly growing set of libraries and a growing ecosystem.
+
+Release of SvelteKit 1.0 should solidify things
