@@ -13,3 +13,7 @@ Multiple frameworks:
 - Skeleton (UI Library)
 - Smelte (UI Library)
 - ...
+
+Svelte 4:
+- Framework Native Web Animations API
+- (Even) Smaller JS Payload
