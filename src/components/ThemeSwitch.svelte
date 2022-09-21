@@ -1,20 +1,14 @@
 <script>
     import bulb from 'iconoir/icons/light-bulb-on.svg?raw';
     import { onMount } from 'svelte';
+    import {getTheme} from "../utils/theme.js";
+    import {themeStore} from "../stores/themeStore.js";
+
     let theme = 'light';
     onMount(() => {
         theme = getTheme();
     });
-    function getTheme() {
-        if (!window) {
-            return 'light';
-        }
-        const storedValue = window.localStorage.getItem('theme');
-        if (storedValue) {
-            return storedValue;
-        }
-        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-    }
+
 
     function toggleTheme() {
         const body = document.body;
@@ -23,6 +17,7 @@
         theme = theme === 'dark' ? 'light' : 'dark';
         body.classList.add(`${theme}`);
         window.localStorage.setItem('theme', theme);
+        themeStore.set(theme);
 
         const onTransitionEnd = function () {
             body.removeEventListener('transitionend', onTransitionEnd);

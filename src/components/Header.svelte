@@ -1,8 +1,15 @@
 <script>
+    import cloud37Darkmode from '../assets/LogoDarkmode.svg'
+    import cloud37 from '../assets/Logo.svg'
+    import {themeStore} from "../stores/themeStore.js";
+
+    $: logoSrc = $themeStore === 'light' ? cloud37 : cloud37Darkmode;
 </script>
 <header>
     <div class="container">
-        <nav/>
+        <nav>
+            <a href="cloud37.de"><img src={logoSrc} alt="Cloud37 company logo"/></a>
+        </nav>
         <div class="right">
             An Overview of Svelte & Svelte Kit
         </div>
