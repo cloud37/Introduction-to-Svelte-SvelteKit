@@ -3,3 +3,4 @@
 - Incredible fast local Hot Module Reload
 - Expressive errors
 - Integrated a11y warnings
+- It's just HTML, CSS and JS
