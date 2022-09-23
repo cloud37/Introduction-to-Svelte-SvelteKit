@@ -1,0 +1,8 @@
+# Environment Variables
+
+- ``$env/dynamic/private`` for private dynamic server Env-Variables
+- ``$env/dynamic/public`` for public (clientside) server Env-Variables
+- ``$env/dynamic/private`` for private build-time Env-Variables
+- ``$env/dynamic/private`` for public (clientside) build-time Env-Variables
+
+``config.kit.env.publicPrefix`` needs to be prefixed to public variables

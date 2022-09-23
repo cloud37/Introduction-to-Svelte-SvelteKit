@@ -9,6 +9,7 @@ Official Adapters for deployment to:
 - Netlify
 - Vercel
 - Node
+- Static
 - ...
 
 Inoffical Adapters for deployment to:

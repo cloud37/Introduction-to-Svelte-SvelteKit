@@ -1,25 +1,16 @@
-<script>
-    import CounterInput from "$components/CounterInput.svelte";
-</script>
-
 # Actual reactivity continued
-
-<CounterInput/>
 
 ```svelte
 <script>
     let name = '';
-    let count = 0;
-
-    const handleClick = () => {
-        count += 1;
-    }
-    $: console.log(`Name: ${name}`)
-    $: console.log(`Count: ${count}`)
 </script>
 
 <input bind:value={name}/>
-<button on:click={handleClick}>
-    Clicked {count} {count === 1 ? 'time' : 'times'}
-</button>
+```
+React:
+```js
+const Input = () => {
+    [name, setName] = useState('')
+
+    return <input value={name} onChange={(event) => setName(event.target.value)}/>
 ```
