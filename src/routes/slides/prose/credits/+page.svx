@@ -5,7 +5,7 @@ Without you this talk would not have been possible!
 
 ### Inspiration
 
-- [vite-plugin-vue-inspector](https://github.com/webfansplz/vite-plugin-vue-inspector)
+- Svelte Summit 2022
 
 ### Tools to build this talk
 
