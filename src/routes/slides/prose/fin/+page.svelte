@@ -8,8 +8,4 @@
         flex-direction: column;
         text-align: center;
     }
-    a {
-        font-size: 2.5rem;
-        margin: 1rem
-    }
 </style>

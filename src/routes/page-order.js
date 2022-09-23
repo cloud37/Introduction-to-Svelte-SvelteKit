@@ -16,6 +16,7 @@ export const pageOrder = [
     '/slides/sveltekit/05-speed',
     '/slides/sveltekit/06-demo',
     '/slides/prose/future',
+    '/slides/prose/give-it-a-try',
     '/slides/prose/credits',
     '/slides/prose/fin'
 ]
