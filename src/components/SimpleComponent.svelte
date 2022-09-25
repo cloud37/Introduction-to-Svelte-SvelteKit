@@ -4,7 +4,7 @@
 
 <style>
     .red {
-        color: red
+        color: blue
     }
 </style>
 
