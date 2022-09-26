@@ -15,4 +15,4 @@
 
 compared with React:
 - CSS Modules
-- CS in JS Framework(s)
+- CSS in JS Framework(s)
