@@ -6,3 +6,19 @@
 - ``$env/dynamic/private`` for public (clientside) build-time Env-Variables
 
 ``config.kit.env.publicPrefix`` needs to be prefixed to public variables
+
+```ts
+import { env } from '$env/dynamic/private';
+import { apiBaseURL } from '$lib/utils/apiUtils';
+
+const headers = new Headers({
+    origin: '*',
+    Authorization: `Bearer: ${env.API_KEY}`
+});
+const fetchParameters = { method: 'GET', headers };
+
+/** @type {import('./$types').RequestHandler} */
+export function GET() {
+    return fetch(apiBaseURL(), fetchParameters);
+}
+```
