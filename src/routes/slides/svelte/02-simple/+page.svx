@@ -10,12 +10,12 @@
 </script>
 
 <style>
-    .red {
+    .blue {
         color: blue
     }
 </style>
 
-<p>The number <span class:red={number === 5}>{number}</span> has been passed as a prop</p>
+<p>The number <span class:blue={number === 5}>{number}</span> has been passed as a prop</p>
 ```
 
 <SimpleComponent number={5}/>

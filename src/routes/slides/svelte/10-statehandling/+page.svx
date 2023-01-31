@@ -11,7 +11,7 @@ export const count = writable(0);
 
 ```svelte
 <script>
-    import { count } from './countStore.js.js';
+    import { count } from './countStore.js';
 
     const decrement = () => {
         $count = $count - 1;

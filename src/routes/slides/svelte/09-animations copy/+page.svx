@@ -1,0 +1,26 @@
+<script>
+    import Animation from "$components/Animation.svelte";
+</script>
+# Animations explained:
+
+```svelte
+    <table>
+		<tr class="row">
+			{#each columns as { key, label }}
+				{@const sorted = key === sortedBy}
+				<th class="item title" class:sorted>{label}</th>
+			{/each}
+		</tr>
+
+		{#each data as row, i (row.number)}
+			<tr class="row" animate:flip>
+				{#each columns as { key }}
+					{@const sorted = key === sortedBy}
+					<td class="item" class:sorted>{row[key]}</td>
+				{/each}
+			</tr>
+		{/each}
+	</table>
+```
+
+<Animation/>
