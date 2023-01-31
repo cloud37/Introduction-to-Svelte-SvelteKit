@@ -43,12 +43,7 @@
 		</tr>
 
 		{#each data as row, i (row.number)}
-			{@const t = {
-				duration: 1000,
-				delay:100 * i
-			}}
-
-			<tr class="row" animate:flip={t}>
+			<tr class="row" animate:flip>
 				{#each columns as { key }}
 					{@const sorted = key === sortedBy}
 					<td class="item" class:sorted>{row[key]}</td>
