@@ -1,4 +1,4 @@
-# Enhance your DX - A talk @ Svelte Summit 2022
+# An introduction to Svelte & SvelteKit (based on Dominik Gs [Svelte Summit](https://github.com/dominikg/summit-2022) presentation)
 
 ## setup
 
