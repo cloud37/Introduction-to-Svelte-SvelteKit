@@ -1,5 +1,7 @@
 <div class="fin">
         <h1>fin</h1>
+
+        <p>Slides under <a href="https://cloud37.io/svelteTalk">https://cloud37.io/svelteTalk</a></p>
 </div>
 <style>
     .fin {

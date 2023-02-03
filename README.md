@@ -16,3 +16,7 @@ run `pnpm build` in your local vite-plugin svelte and finally update the pnpm ov
 
 The setup in use here is not a great example. It was cobbled together to allow for some live effects during the presentation.
 Feel free to send improvements or use it elsewhere, but please don't judge
+
+## Keybindings:
+CTRL + Shift for Inspector
+CTRL + < for Editor
