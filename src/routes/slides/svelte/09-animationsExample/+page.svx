@@ -22,5 +22,3 @@
 		{/each}
 	</table>
 ```
-
-<Animation/>

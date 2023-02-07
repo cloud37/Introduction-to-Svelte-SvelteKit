@@ -3,4 +3,4 @@
 - Framework to create Svelte Apps
 - 100.000 weekly downloads (compare Next.js: 3.000.000)
 - Pretty new, announced in November 2020 (although technically, it's just a rewrite)
-- 1.0 Release Candidate announced (09/2022)!
+- 1.0 Released on 14.12.2022
