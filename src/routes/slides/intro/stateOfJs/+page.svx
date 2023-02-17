@@ -1,0 +1,3 @@
+# State Of JS 2022
+
+![survey](./stateOfJs.png)

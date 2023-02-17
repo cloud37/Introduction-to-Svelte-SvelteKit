@@ -1,5 +1,6 @@
 export const pageOrder = [
     '/',
+    '/slides/intro/stateOfJs',
     '/slides/svelte/01-overview',
     '/slides/svelte/02-simple',
     '/slides/svelte/03-scopedStyles',
