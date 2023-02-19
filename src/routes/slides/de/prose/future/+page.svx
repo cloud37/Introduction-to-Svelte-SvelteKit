@@ -1,0 +1,18 @@
+# Die Zukunft von Svelte/SvelteKit
+
+Vercel (die Firma hinter Next.js) hat 2 Entwickler eingestellt um SvelteKit Vollzeit weiterzuentwickeln.
+
+Stetig steigende Zahl von Bibliotheken und ein wachsendes Ökosystem
+
+Der Release von SvelteKit 1.0 beschleunigt die Verwendung
+
+Bereits viele vorhandene Frameworks:
+- Crown.js (eCommerce)
+- Elder.js (Static Site Generator)
+- Skeleton (UI Library)
+- Smelte (UI Library)
+- ...
+
+Svelte 4:
+- Framework Native Web Animations API
+- Noch kleinere JS-Payloads

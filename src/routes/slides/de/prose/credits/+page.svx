@@ -1,0 +1,23 @@
+# Credits und Danksagung
+
+Vielen Dank an alle an der Organisaton und Entwicklung beteiligten Menschen.<br>
+Ohne euch wäre dieser Talk nicht möglich gewesen!
+
+### Inspiration
+
+- Svelte Summit 2022
+
+### Werkzeuge mit denen dieser Talk gebaut wurde
+
+- [SvelteKit](https://kit.svelte.dev)
+- [Vite](https://vitejs.dev)
+- [mdvsvex](https://mdsvex.com)
+- [Shiki](https://shiki.matsu.io/)
+
+### Slide Preset & Inline-Editor
+
+- Dominik Göpel
+
+### Animationsbeispiel
+
+- The Pudding

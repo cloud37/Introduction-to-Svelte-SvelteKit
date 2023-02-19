@@ -1,0 +1,6 @@
+# Integriertes Server Side Rendering (SSR)
+
+## Warum SSR?
+- SEO
+- Performanz
+- Reliability

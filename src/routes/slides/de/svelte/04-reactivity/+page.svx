@@ -1,0 +1,25 @@
+# Tatsächliche Reaktivität
+
+```svelte
+<script>
+    let count = 0;
+
+    function handleClick() {
+        count += 1;
+    }
+</script>
+
+<button on:click={handleClick}>
+    Clicked {count} {count === 1 ? 'time' : 'times'}
+</button>
+```
+React:
+```js
+const Counter = () => {
+    [count, setCounter] = useState(0)
+
+    return <button onClick={() => setCounter(count + 1)}>
+        Clicked {count} {count === 1 ? 'time' : 'times'}
+    </button>
+}
+```

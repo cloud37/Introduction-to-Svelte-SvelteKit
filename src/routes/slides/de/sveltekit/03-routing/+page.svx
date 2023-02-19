@@ -1,0 +1,32 @@
+# File-Based Routing
+
+Wie Next.js mit ein paar Verbesserungen:
+
+<div style="display: flex; justify-content: space-around;">
+<pre>
+src/
+├── routes/
+│   ├── api/
+│   │   ├── contact/
+│   │   │   ├── +server.ts
+│   ├── blog/
+│   │   ├── +page.svelte
+│   │   ├── someBlogComponent.svelte
+│   │   ├── +layout.svelte
+│   │   │   +server.ts
+│   ├── contact/
+│   │   ├── +page.svelte
+│   │   ├── +layout.svelte
+│   ├── +page.svelte
+│   ├── +layout.svelte  
+</pre>
+<pre>
+src/
+├── routes/
+│   ├── api/
+│   │   ├── contact.js
+│   ├── pages/index.js
+│   ├── pages/blog/index.js
+│   ├── pages/contact/index.js
+</pre>
+</div>

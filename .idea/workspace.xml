@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e4dcd65-1bef-4834-9b92-fae9b9cbe663" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/Logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/LogoDarkmode.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stores/themeStore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/theme.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/summit-2022.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.npmrc" beforeDir="false" afterPath="$PROJECT_DIR$/.npmrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ThemeSwitch.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ThemeSwitch.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,11 +16,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="SimpleComponent" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -40,26 +34,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Dominik/IdeaProjects/SvelteOverview/src/assets",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "pnpm",
-    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\Dominik\\IdeaProjects\\SvelteOverview\\node_modules\\prettier",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "settings.nodejs"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dominik/IdeaProjects/SvelteOverview/src/routes/slides/svelte&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\Dominik\\IdeaProjects\\SvelteOverview\\node_modules\\prettier&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.nodejs&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Dominik\\IdeaProjects\\SvelteOverview\\node_modules\\typescript\\lib&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dominik\IdeaProjects\SvelteOverview\src\routes\slides\svelte" />
+      <recent name="C:\Users\Dominik\IdeaProjects\SvelteOverview\src\routes\slides\sveltekit" />
+      <recent name="C:\Users\Dominik\IdeaProjects\SvelteOverview\src\routes\slides\prose" />
       <recent name="C:\Users\Dominik\IdeaProjects\SvelteOverview\src\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -92,7 +94,30 @@
       <workItem from="1663682615587" duration="43000" />
       <workItem from="1663682668419" duration="228000" />
       <workItem from="1663682908346" duration="306000" />
-      <workItem from="1663736948730" duration="3386000" />
+      <workItem from="1663736948730" duration="4070000" />
+      <workItem from="1663759700774" duration="1758000" />
+      <workItem from="1663823057373" duration="3082000" />
+      <workItem from="1663910069128" duration="3279000" />
+      <workItem from="1663920408143" duration="1834000" />
+      <workItem from="1663930502167" duration="5575000" />
+      <workItem from="1664000627335" duration="74000" />
+      <workItem from="1664025999156" duration="124000" />
+      <workItem from="1664027719578" duration="8000" />
+      <workItem from="1664031710651" duration="1921000" />
+      <workItem from="1664104367125" duration="93000" />
+      <workItem from="1664182533501" duration="5444000" />
+      <workItem from="1664259685470" duration="3563000" />
+      <workItem from="1664277121578" duration="2170000" />
+      <workItem from="1664341768876" duration="2340000" />
+      <workItem from="1664428204006" duration="3641000" />
+      <workItem from="1664457689865" duration="497000" />
+      <workItem from="1664459882931" duration="2000" />
+      <workItem from="1664514296913" duration="1257000" />
+      <workItem from="1664527063250" duration="11000" />
+      <workItem from="1668504705489" duration="170000" />
+      <workItem from="1675171562783" duration="566000" />
+      <workItem from="1675331912352" duration="11000" />
+      <workItem from="1675757703956" duration="53000" />
     </task>
     <servers />
   </component>
@@ -109,5 +134,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
+    <settings-migrated>true</settings-migrated>
   </component>
 </project>

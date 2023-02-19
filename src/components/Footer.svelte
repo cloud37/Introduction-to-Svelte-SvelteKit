@@ -8,6 +8,10 @@
     $: currentIndex = list.indexOf('/'+$page.routeId);
     $: next = (currentIndex < (list.length -1)) ? list[currentIndex +1] : null
     $: prev = (currentIndex > 0) ? list[currentIndex -1] : null
+    $: languageToSwitchTo = $page.url.pathname.includes("/de") ? 'en' : 'de'
+    $: languageSwitchLink = languageToSwitchTo === 'en' ?  $page.url.pathname.replace('/de', '/en') : $page.url.pathname.replace('/en', '/de')
+    $: beginningOfEnglish = $page.url.pathname === '/slides/en'
+    $: startOrNextText = currentIndex === 0 || beginningOfEnglish ? 'start':'next'
 
     function isInEditor(e) {
         let el = e.target;
@@ -40,13 +44,14 @@
 </script>
 <footer>
     <div class="container">
-        <span>Dominik R &copy; 2022</span>
+        <span>Dominik R &copy; 2022-2023</span>
         <nav>
-            {#if prev}
+            <a href={languageSwitchLink}>{languageToSwitchTo}</a>
+            {#if prev && !beginningOfEnglish}
                 <a href={prev}>prev</a>
             {/if}
             {#if next}
-                <a href={next}>{currentIndex === 0 ? 'start':'next'}</a>
+                <a href={next}>{startOrNextText}</a>
             {/if}
             <ThemeSwitch/>
         </nav>

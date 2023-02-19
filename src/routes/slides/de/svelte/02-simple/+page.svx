@@ -1,0 +1,22 @@
+<script>
+    import SimpleComponent from "$components/SimpleComponent.svelte";
+</script>
+
+# Eine einfache Svelte Komponente
+
+```svelte
+<script>
+    export let number = 0;
+</script>
+
+<style>
+    .blue {
+        color: blue
+    }
+</style>
+
+<p>The number <span class:blue={number === 5}>{number}</span> has been passed as a prop</p>
+```
+
+<SimpleComponent number={5}/>
+<SimpleComponent/>

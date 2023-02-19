@@ -1,5 +1,5 @@
 <script>
-    import LogoLargeOutline from "../components/LogoLargeOutline.svelte";
+	import LogoLargeOutline from "../../../components/LogoLargeOutline.svelte";
 </script>
 
 <div class="center">

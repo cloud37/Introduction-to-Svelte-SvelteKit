@@ -1,0 +1,30 @@
+<script>
+    import StoreCounter from "$components/StoreCounter.svelte";
+</script>
+# Integriertes Statehandling
+
+```js
+import { writable } from 'svelte/store';
+
+export const count = writable(0);
+```
+
+```svelte
+<script>
+    import { count } from './countStore.js';
+
+    const decrement = () => {
+        $count = $count - 1;
+    }
+    const increment = () => {
+        $count = $count + 1;
+    }
+</script>
+
+<div>
+    <span>Count: {$count}</span>
+</div>
+```
+
+<StoreCounter/>
+<StoreCounter/>

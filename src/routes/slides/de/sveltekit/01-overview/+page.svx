@@ -1,0 +1,6 @@
+# SvelteKit
+
+- Framework um Svelte Apps zu entwickeln
+- 100.000 wöchtentliche Downloads (vergleiche Next.js: 3.000.000)
+- Erst im November 2020 angekündigt (ist aber "nur" ein Rewrite)
+- 1.0 Released on 14.12.2022

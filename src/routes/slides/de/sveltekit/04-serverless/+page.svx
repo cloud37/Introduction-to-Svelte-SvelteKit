@@ -1,0 +1,19 @@
+# Serverless/Edge first
+
+- Statische Dateien werden direkt in einem CDN abgelegt
+- Dynamische Funktionen werden zu serverless Functions
+- API Routen werden zu Endpoints für Serverless Functions
+
+Offizielle Deployment-Adapter für:
+- Cloudflare
+- Netlify
+- Vercel
+- Node
+- Static
+- ...
+
+Inoffizielle Deployment-Adapter für:
+- ~~alles~~
+- AWS
+- Azure
+- Firebase

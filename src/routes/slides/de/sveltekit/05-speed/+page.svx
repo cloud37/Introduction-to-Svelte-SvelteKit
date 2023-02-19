@@ -1,0 +1,4 @@
+# Geschwindigkeit
+
+- Reaktionszeit einer SPA-App nach Hydration
+- Fetch-Once

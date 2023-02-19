@@ -1,0 +1,7 @@
+# Svelte
+
+- Compiler, kein Framework
+- 0.0.1 wurde vor mehr als 6 Jahren veröffentlicht
+- 470.000 wöchentliche Downloads (Vergleiche React: 18.600.000)
+
+Warum sollte man es sich trotzdem anschauen?

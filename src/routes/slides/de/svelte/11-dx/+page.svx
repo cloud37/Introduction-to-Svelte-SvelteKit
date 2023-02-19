@@ -1,0 +1,6 @@
+# Großartige Handhabung in der Entwiklung
+
+- Extrem schnelles Hot Module Reloading
+- Ausdrucksstarke Fehlermeldungen
+- Integrierte Accessibility-Warnungen
+- Eigentlich nur HTML, CSS und JS
