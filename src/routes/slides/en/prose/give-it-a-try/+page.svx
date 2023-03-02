@@ -1,5 +1,3 @@
 # Want to give it a try?
 
 [learn.svelte.dev](https://learn.svelte.dev/tutorial/welcome-to-svelte)
-
-<span style="color:red">Warning!</span> These are the new beta tutorials for Svelte & SvelteKit, they are still being developed!
