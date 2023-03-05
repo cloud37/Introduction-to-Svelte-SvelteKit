@@ -2,7 +2,7 @@
     import CounterInput from "$components/CounterInput.svelte";
 </script>
 
-# Tatsächliche Reaktivtät
+# Tatsächliche Reaktivität
 
 <CounterInput/>
 

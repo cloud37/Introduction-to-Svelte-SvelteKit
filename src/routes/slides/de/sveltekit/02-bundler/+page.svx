@@ -1,0 +1,13 @@
+# Exkurs: Vite? Rollup? Webpack?
+
+Bundler:
+- Webpack
+- Rollup
+
+Alle JS-Dateien werden gecrawlt und gepackt
+
+Kein Bundler:
+- Vite
+
+JS-Dateien als einzelne native ES Module während Entwicklung   
+=> Trotzdem bundle build für Produktion (tree shaking, lazy-loading, common chunks...)

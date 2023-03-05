@@ -1,0 +1,13 @@
+# Aside: Vite? Rollup? Webpack?
+
+Bundler:
+- Webpack
+- Rollup
+
+All JS files need to be crawled and bundled
+
+Kein Bundler:
+- Vite
+
+Application JS file are compiled into seperate ES modules
+=> Still uses bundled build for production (tree shaking, lazy-loading, common chunks...)
